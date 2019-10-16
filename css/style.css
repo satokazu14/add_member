@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+li{
+  list-style-type: none;
+  list-style-position: outside;
+}
+
+a{
+  text-decoration: none;
+}
+
+div{
+  box-sizing: border-box;
+}
+
+img{
+  vertical-align: bottom;
+}
+
+table {
+  text-align: center;
+  margin: 20px auto;
+}
+
+.err_msg {
+  color: red;
+}
+
+.err_msg:empty {
+  height: 24px;
+  display: block;
+}
+
+p {
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 0;
+}
